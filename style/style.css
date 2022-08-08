@@ -244,8 +244,9 @@ nav{
     font-size: 48px;
     position: relative;
     top: -500px;
-    left: 500px;
+    left: 370px;
     width: 800px;
+    align-items: center;
 }
 
 .six ul{
@@ -265,7 +266,7 @@ nav{
 }
 
 .packages-list, .packages-list-p{
-    padding-left: 60px;
+    padding-left: 35px;
     padding-top: 50px;
 }
 
