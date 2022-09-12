@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>
+        Live Class Project 11
+    </title>
+</head>
+
+<body>
+
+    <div class="full-width">
+        <div class="hosting-header">
+            <div class="hosting-navbarDiv">
+                <div class="hosting-nav d-flex justify-content-between align-center">
+                    <div class="hosting-logo">
+                        <img src="./assets/Logo.png" class="logo-img" alt="" srcset="">
+                    </div>
+                    <div class="nav-menus">
+                        <ul class="nav-menulist d-flex align-center">
+                            <li class="nav-links active">Home</li>
+                            <li class="nav-links">Domain</li>
+                            <li class="nav-links">Hosting</li>
+                            <li class="nav-links">Features</li>
+                            <li class="nav-links">Pricing</li>
+                            <li class="nav-links">About us</li>
+                            <li class="nav-links">
+                                <button class="reg-btn">
+                                Register Now
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="mobile">
+                            <div id="menu-open" class="cur-pointer z-99999 " onclick="openNav();" style="display: block;">
+                                <img loading="lazy" style="height: 30px; width: 30px;" src="https://ineuron.ai/images/hamburger.svg" alt="Play fantasy games online">
+                            </div>
+                            <div id="menu-close" style="display: none; cursor: pointer;" class="d-none cur-pointer menu-close z-99999">
+                                <img loading="lazy" onclick="closeNav()" style="height: 25px; width: 25px;" src="https://ineuron.ai/images/close.svg" alt="Play fantasy games online">
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="herosection-div d-flex justify-content-between align-center">
+
+                <div class="hero-leftdiv">
+                    <h1 class="hero-title">
+                        Great Website Start
+                        with unlimited
+                        Hosting
+                    </h1>
+                    <p class="hero-desc">
+                        We provide the best offer of unlimited web hosting. The most complete <br>
+                        features, affordable prices, and 24/7 technical support at your <br>
+                        disposal.
+                    </p>
+                    <button class="choose-pkgbtn">
+                        Choose Package
+                    </button>
+                </div>
+                <div class="hero-rightDiv">
+                    <div class="hero-imgdiv">
+                        <img src="./assets/cloud-comp.png" alt="" class="hero-img">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="full-width">
+
+        <div class="best-quality d-flex justify-content-between align-center container">
+            <div class="hero-rightDiv">
+                <div class="hero-imgdiv">
+                    <img src="./assets/testing.svg" alt="" class="hero-img">
+                </div>
+            </div>
+
+            <div class="hero-leftdiv">
+                <h1 class="hero-title">
+                    We Provide The Best <br>
+                    Quality With Low Cost
+                </h1>
+                <p class="hero-desc">
+                    We provide the best offer of unlimited web hosting. The most complete <br>
+                    features, affordable prices, and 24/7 technical support at your <br>
+                    disposal.
+                </p>
+                <button class="choose-pkgbtn">
+                    Choose Package
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="full-width">
+        <div class="container best-quality d-flex justify-content-between align-center">
+
+            <div class="hero-leftdiv">
+                <h1 class="hero-title">
+                    Number 1 Technical <br>
+                    Support In Indpnesia
+                </h1>
+                <p class="hero-desc">
+                    Contact Niagahoster's Custom Success Agent at any time when there is a <br>
+                    paroblem with your website. No need to wait long, your problem will be <br>
+                    resloved quickly and in real-time via intercom's live-chat.
+                </p>
+                <button class="choose-pkgbtn">
+                    Choose Package
+                </button>
+            </div>
+            <div class="hero-rightDiv">
+                <div class="hero-imgdiv">
+                    <img src="./assets/technical-support.svg" alt="" class="hero-img">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="full-width">
+        <div class="service-Div">
+            <div class="service-top d-flex justify-content-between align-center">
+                <h2 class="service-topleft">
+                    Services We Provide
+                    At ThorHosting
+                </h2>
+                <div class="service-topright">
+                    Contact Niagahoster's Customer Success Agent at any time when there is a
+                    problem with your website. No need to wait long, your problem will be
+                    resolved quickly
+                </div>
+            </div>
+
+            <div class="service-bottom d-flex justify-content-center align-center">
+                <div class="service-card">
+                    <img src="./assets/cloud-hosting.svg" alt="" class="service-img">
+                    <h4 class="service-title">
+                        Cloud Hosting
+                    </h4>
+                    <div class="service-details">
+                        Amet minim molit non deserunt ullamco est sit <br>
+                        aliuqa dolor do amet sint. velit officia consequat <br>
+                        duis enim belit molit. <br>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/wordpress-hosting.svg" alt="" class="service-img">
+                    <h4 class="service-title">
+                        Wordpress Hosting
+                    </h4>
+                    <div class="service-details">
+                        Amet minim molit non deserunt ullamco est sit <br>
+                        aliuqa dolor do amet sint. velit officia consequat <br>
+                        duis enim belit molit. <br>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/vps.svg" alt="" class="service-img">
+                    <h4 class="service-title">
+                        Fastest VPS
+                    </h4>
+                    <div class="service-details">
+                        Amet minim molit non deserunt ullamco est sit <br>
+                        aliuqa dolor do amet sint. velit officia consequat <br>
+                        duis enim belit molit. <br>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/Domain.svg" alt="" class="service-img">
+                    <h4 class="service-title">
+                        Domain
+                    </h4>
+                    <div class="service-details">
+                        Amet minim molit non deserunt ullamco est sit <br>
+                        aliuqa dolor do amet sint. velit officia consequat <br>
+                        duis enim belit molit. <br>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/builder.svg" alt="" class="service-img">
+                    <h4 class="service-title">
+                        Website Builder
+                    </h4>
+                    <div class="service-details">
+                        Amet minim molit non deserunt ullamco est sit <br>
+                        aliuqa dolor do amet sint. velit officia consequat <br>
+                        duis enim belit molit. <br>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/cloud-hosting.svg" alt="" class="service-img">
+                    <h4 class="service-title">
+                        Unlimited Hosting
+                    </h4>
+                    <div class="service-details">
+                        Amet minim molit non deserunt ullamco est sit <br>
+                        aliuqa dolor do amet sint. velit officia consequat <br>
+                        duis enim belit molit. <br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="membership-pricing">
+            <h2 class="priceing-heading">
+                Flexible & Transparent Pricing
+            </h2>
+            <div class="pricing-wrapper d-flex">
+
+
+
+                <div class="priceing-card">
+                    <div class="priceing-top">
+                        <h4 class="pricehead-title">Starter Pack</h4>
+                        <p class="pricehead-subtitle">Suitable for beginners</p>
+                    </div>
+                    <div class="priceing-middile">
+                        <ul class="pricing-details">
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-bottom">
+                        <h3 class="card-price"><span> $29.99</span>/month</h3>
+                        <p class="price-detail">
+                            Cancel Anytime
+                        </p>
+                        <div class="chooseplan-btn">
+                            <button class="plan-btn">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="priceing-card">
+                    <div class="priceing-top">
+                        <h4 class="pricehead-title">Starter Pack</h4>
+                        <p class="pricehead-subtitle">Suitable for beginners</p>
+                    </div>
+                    <div class="priceing-middile">
+                        <ul class="pricing-details">
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-bottom">
+                        <h3 class="card-price"><span> $29.99</span>/month</h3>
+                        <p class="price-detail">
+                            Cancel Anytime
+                        </p>
+                        <div class="chooseplan-btn">
+                            <button class="plan-btn">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="priceing-card">
+                    <div class="priceing-top">
+                        <h4 class="pricehead-title">Starter Pack</h4>
+                        <p class="pricehead-subtitle">Suitable for beginners</p>
+                    </div>
+                    <div class="priceing-middile">
+                        <ul class="pricing-details ">
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                            <li class="detail-list d-flex">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                Up To 15,000 visitors/Month
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-bottom">
+                        <h3 class="card-price"><span> $29.99</span>/month</h3>
+                        <p class="price-detail">
+                            Cancel Anytime
+                        </p>
+                        <div class="chooseplan-btn">
+                            <button class="plan-btn">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="customer-feedback">
+            <h2 class="feedback-heading">Our Customer Love Us</h2>
+            <p class="feedback-subhead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora
+                ducimus explicabo optio quae. <br>
+                Facere quam perspiciatis maxime reprehenderit rem?
+            </p>
+
+            <div class="review-div d-flex">
+                <div class="review-cards">
+                    <div class="review-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere,
+                        iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor
+                        autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!
+                    </div>
+                    <div class="user-reviewinfo">
+                        <div class="user-imgdiv">
+                            <img src="./assets/profile-holder.png" alt="" class="user-img">
+                        </div>
+                        <div class="user-info">
+                            <div class="user-name">Michael Andrew</div>
+                            <div class="user-role">
+                                CEO apple inc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-cards">
+                    <div class="review-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere,
+                        iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor
+                        autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!
+                    </div>
+                    <div class="user-reviewinfo">
+                        <div class="user-imgdiv">
+                            <img src="./assets/profile-holder.png" alt="" class="user-img">
+                        </div>
+                        <div class="user-info">
+                            <div class="user-name">Michael Andrew</div>
+                            <div class="user-role">
+                                CEO apple inc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-cards">
+                    <div class="review-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere,
+                        iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor
+                        autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!
+                    </div>
+                    <div class="user-reviewinfo">
+                        <div class="user-imgdiv">
+                            <img src="./assets/profile-holder.png" alt="" class="user-img">
+                        </div>
+                        <div class="user-info">
+                            <div class="user-name">Michael Andrew</div>
+                            <div class="user-role">
+                                CEO apple inc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-cards">
+                    <div class="review-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti repudiandae facere,
+                        iusto quo voluptas labore commodi ducimus delectus ullam id cumque impedit odit eius amet dolor
+                        autem nam sunt repellat illum repellendus. Ut laborum, ipsum ab rerum velit nulla!
+                    </div>
+                    <div class="user-reviewinfo">
+                        <div class="user-imgdiv">
+                            <img src="./assets/profile-holder.png" alt="" class="user-img">
+                        </div>
+                        <div class="user-info">
+                            <div class="user-name">Michael Andrew</div>
+                            <div class="user-role">
+                                CEO apple inc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="register-div">
+            <div class="register-wrapper d-flex justify-content-between align-center">
+                <div class="register-left">
+                    <h4>Quit Worrying about <br>
+                        Oce-Hosting services</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        repudiandae tempora facilis</p>
+                </div>
+
+                <div class="register-right">
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-Maindiv d-flex">
+            <div class="footer-div top">
+                <img src="./assets/Logo.png" alt="" class="footer-logo">
+                <div class="footer-desc">
+                    Lorem ipsum dolor, sit amet <br>
+                    consectetur adipisicing elit. Officia, officiis? <br>
+                    Lorem ipsum dolor sit.
+                </div>
+            </div>
+            <div class="footer-list d-flex">
+                <div class="footer-div d-flex justify-content-center align-center">
+                    <ul class="footer-menus">
+                        <li class="footer-links footer-title">Menu</li>
+                        <li class="footer-links">Home</li>
+                        <li class="footer-links">covid19</li>
+                        <li class="footer-links">vaccine info</li>
+                        <li class="footer-links">Contact us</li>
+                    </ul>
+                </div>
+                <div class="footer-div d-flex justify-content-center align-center">
+                    <ul class="footer-menus">
+                        <li class="footer-links footer-title">Menu</li>
+                        <li class="footer-links">Home</li>
+                        <li class="footer-links">covid19</li>
+                        <li class="footer-links">vaccine info</li>
+                        <li class="footer-links">Contact us</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-list d-flex">
+                <div class="footer-div d-flex justify-content-center align-center">
+                    <ul class="footer-menus">
+                        <li class="footer-links footer-title">Menu</li>
+                        <li class="footer-links">Home</li>
+                        <li class="footer-links">covid19</li>
+                        <li class="footer-links">vaccine info</li>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <div class="footer-links footer-title">
+                        Social Media
+                    </div>
+                    <div class="social-icondiv d-flex ">
+                        <img src="../assets/facebook.svg" alt="" class="socil-icons">
+                        <img src="../assets/instagram.svg" alt="" class="socil-icons">
+                        <img src="../assets/linkedin.svg" alt="" class="socil-icons">
+                        <img src="../assets/youtube.svg" alt="" class="socil-icons">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <div id="mySidenavMenu" class="sidenavMenu mobile" style="right: -1000px;">
+        <div class="mob-menus">
+            <div>
+                Home
+            </div>
+            <div>
+                Domain
+            </div>
+            <div>
+               Hosting
+            </div>
+            <div>
+                Features
+            </div>
+            <div>
+                Pricing
+            </div>
+            <div>
+                About Us
+            </div>
+            <div>
+                <button class="choose-pkgbtn">Register Now</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenavMenu").style.right = "0px";
+            document.getElementById("menu-open").style.display = "none";
+            document.getElementById("menu-close").style.display = "block";
+            document.body.style.overflow = "hidden";
+
+            // var bodyScroll = document.getElementsByClassName("bodyClass");
+            // bodyScroll.classList.add("asdasd");
+        }
+
+        function closeNav() {
+            // alert('asda');
+            document.getElementById("mySidenavMenu").style.right = "-1000px";
+            document.getElementById("menu-open").style.display = "block";
+            document.getElementById("menu-close").style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+    </script>
+
+
+</body>
+
+</html>
