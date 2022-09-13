@@ -1,6 +1,8 @@
 # _Project 11_
 
 <img src="https://img.shields.io/badge/Project%211-Website-brightgreen">&nbsp;<img src="https://img.shields.io/badge/Used-HTML5-orange">&nbsp;<img src="https://img.shields.io/badge/Used-CSS3-blue">
+![Project 1 (8)](https://user-images.githubusercontent.com/91872149/189878132-e757adcd-374e-409a-a43f-aab870b06a32.jpg)
+
 <br><br><br>
 ![screencapture-live-class-assignment-11-netlify-app-2022-09-12-11_18_34](https://user-images.githubusercontent.com/91872149/189582204-e0fdf284-58f3-4ecd-ad9c-09b9f993c733.png)
 
@@ -10,4 +12,4 @@
 
 
 
-## _Live Hosted Link_ : [Web Design - Project 11](https://live-class-assignment-11.netlify.app/)
+## _Live Hosted Link🌐🚀_ : _[Web Design - Project 11](https://live-class-assignment-11.netlify.app/)_
